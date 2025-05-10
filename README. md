@@ -1,0 +1,36 @@
+= Redmine Percent Done Configuration
+
+이 프로젝트 파일은 레드마인 2.x 기반으로 제작된 [guilhermenoronha/redmine_percent_done_configuration](https://github.com/guilhermenoronha/redmine_percent_done_configuration) 프로젝트를 레드마인 5.x 버전에도 호환이 가능하도록 수정한 플러그인 입니다.
+
+== 기능
+
+* 이슈의 전역 완료율 설정 구성
+* 100으로 나누어 떨어지는 간격(1,2,4,5,10,25,50 또는 100)으로 설정 가능
+* 이슈 진행 상황의 정확한 측정 및 프로젝트 진행 과정 모니터링 용이
+
+== 설치 방법
+
+1. "redmine_percent_done_configuration" 폴더를 plugins 디렉토리에 복사
+2. 레드마인 서버 재시작
+3. 관리자 -> 플러그인 -> 설정 (Percent Done Configuration)으로 이동
+4. 완료율 간격을 선택하고 적용 버튼 클릭
+
+== 제거 방법
+
+1. "redmine_percent_done_configuration" 폴더 삭제
+2. 레드마인 서버 재시작
+
+== 호환 버전
+
+* 레드마인 5.x 버전 지원
+* 레드마인 4.x, 6.x 버전에서는 테스트되지 않았습니다.
+
+== Versions
+
+Works on version 2.3.x of Redmine
+
+== Feature Changelog
+
+=== 0.1.23x
+
+First Commit
