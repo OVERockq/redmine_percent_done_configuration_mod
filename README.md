@@ -1,0 +1,1 @@
+# redmine_percent_done_configuration_5.x
